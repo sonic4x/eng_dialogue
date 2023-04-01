@@ -72,7 +72,7 @@ const router = createBrowserRouter(
       </Route>
     </Route>
   ),
-  { basename: "/" }
+  { basename: "/eng_dialogue/" }
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
