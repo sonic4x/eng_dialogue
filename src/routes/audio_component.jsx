@@ -38,16 +38,18 @@ export default class Audio extends Component {
   }
 
   componentDidMount() {
-    //Prompt the user for permission to allow audio device in browser
-
-    // navigator.getUserMedia =
-    //   navigator.mediaDevices.getUserMedia() ||
-    //   navigator.webkitGetUserMedia ||
-    //   navigator.mozGetUserMedia ||
-    //   navigator.msGetUserMedia;
-
-    //Detects the action on user click to allow or deny permission of audio device
     if (navigator.mediaDevices) {
+      //Prompt the user for permission to allow audio device in browser
+      const browserSupportsMedia = () => {
+        return (
+          navigator.mediaDevices.getUserMedia ||
+          navigator.webkitGetUserMedia ||
+          navigator.mozGetUserMedia ||
+          navigator.mzGetUserMedia
+        );
+      };
+      browserSupportsMedia();
+      //Detects the action on user click to allow or deny permission of audio device
       navigator.mediaDevices.getUserMedia(
         { audio: true },
         () => {
