@@ -54,8 +54,8 @@ import "./index.css";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route
-      basename={process.env.PUBLIC_URL}
-      path='/'
+      // basename={process.env.PUBLIC_URL}
+      path='`{process.env.PUBLIC_URL}`/'
       element={<Root />}
       loader={rootLoader}
       // action={rootAction}
