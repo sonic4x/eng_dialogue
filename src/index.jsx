@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import ErrorPage from "./error-page";
 import Root, {
   loader as rootLoader,
-  action as rootAction,
+  // action as rootAction,
 } from "./routes/root";
 import Contact, { loader as contactLoader } from "./routes/contact";
 import Index from "./routes/index";
@@ -57,7 +57,7 @@ const router = createBrowserRouter(
       path='/'
       element={<Root />}
       loader={rootLoader}
-      action={rootAction}
+      // action={rootAction}
       errorElement={<ErrorPage />}
     >
       <Route errorElement={<ErrorPage />}>

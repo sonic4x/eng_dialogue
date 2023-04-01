@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import MicRecorder from "mic-recorder-to-mp3";
 import { AudioOutlined, BorderOutlined, UndoOutlined } from "@ant-design/icons";
-import { Button, Tooltip, Space } from "antd";
+import { Button } from "antd";
 
 const Mp3Recorder = new MicRecorder({ bitRate: 128 });
 

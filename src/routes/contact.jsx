@@ -1,4 +1,4 @@
-import { Form, useLoaderData, useFetcher } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 import { getContact } from "../contacts";
 import Audio from "./audio_component";
 
@@ -38,29 +38,5 @@ export default function Contact() {
         />
       </section>
     </div>
-  );
-}
-
-function Favorite({ contact }) {
-  const fetcher = useFetcher();
-  let favorite = contact.favorite;
-
-  // Read the optimistic value from fetcher.formData.
-  // We'll use that to immediately update the star's state, even though the network hasn't finished.
-  // If the update eventually fails, the UI will revert to the real data.
-  if (fetcher.formData) {
-    favorite = fetcher.formData.get("favorite") === "true";
-  }
-
-  return (
-    <fetcher.Form method='post'>
-      <button
-        name='favorite'
-        value={favorite ? "false" : "true"}
-        aria-label={favorite ? "Remove from favorites" : "Add to favorites"}
-      >
-        {favorite ? "★" : "☆"}
-      </button>
-    </fetcher.Form>
   );
 }
