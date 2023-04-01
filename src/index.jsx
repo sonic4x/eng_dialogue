@@ -55,7 +55,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route
       // basename={process.env.PUBLIC_URL}
-      path='`{process.env.PUBLIC_URL}`/'
+      path='/'
       element={<Root />}
       loader={rootLoader}
       // action={rootAction}
@@ -71,7 +71,8 @@ const router = createBrowserRouter(
         />
       </Route>
     </Route>
-  )
+  ),
+  { basename: "/" }
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
