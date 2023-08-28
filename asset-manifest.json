@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eng_dialogue/static/css/main.9f3d8d18.css",
-    "main.js": "/eng_dialogue/static/js/main.850932e3.js",
+    "main.js": "/eng_dialogue/static/js/main.f36a8915.js",
     "static/media/cloths.jpeg": "/eng_dialogue/static/media/cloths.8bb243be7df31a651e16.jpeg",
     "static/media/4.jpeg": "/eng_dialogue/static/media/4.6a4b6dd26ee55966a844.jpeg",
     "static/media/10.jpeg": "/eng_dialogue/static/media/10.fa2ce0609d6d658d942c.jpeg",
@@ -16,6 +16,7 @@
     "static/media/8.jpeg": "/eng_dialogue/static/media/8.aef57d0dfc9dd47a599d.jpeg",
     "static/media/12.jpeg": "/eng_dialogue/static/media/12.bc841c9da2208d3ab2e7.jpeg",
     "static/media/11.mp3": "/eng_dialogue/static/media/11.66eb810e07c460b24967.mp3",
+    "static/media/17.mp3": "/eng_dialogue/static/media/17.9324ccf7c8ac1b2aec75.mp3",
     "static/media/7.mp3": "/eng_dialogue/static/media/7.e01b79d807ca156ae6d2.mp3",
     "static/media/12.mp3": "/eng_dialogue/static/media/12.3aa7ccbc8b8acde39a25.mp3",
     "static/media/4.mp3": "/eng_dialogue/static/media/4.9e4417cc3fae7565e68f.mp3",
@@ -27,13 +28,17 @@
     "static/media/2.mp3": "/eng_dialogue/static/media/2.5edec71b66395c9643bf.mp3",
     "static/media/3.mp3": "/eng_dialogue/static/media/3.f5bf74d9d29710171f83.mp3",
     "static/media/1.mp3": "/eng_dialogue/static/media/1.6d4c6746f9a619624c96.mp3",
+    "static/media/17.jpeg": "/eng_dialogue/static/media/17.a126e4ae135b5ba3cdae.jpeg",
+    "static/media/16.jpeg": "/eng_dialogue/static/media/16.416a21a2a2075fa01e14.jpeg",
+    "static/media/14.jpeg": "/eng_dialogue/static/media/14.1585126e3a66ae16e7d4.jpeg",
+    "static/media/15.jpeg": "/eng_dialogue/static/media/15.b45120b68f17aaa1c2b0.jpeg",
     "static/media/eng.svg": "/eng_dialogue/static/media/eng.223068921b5c886e0033.svg",
     "index.html": "/eng_dialogue/index.html",
     "main.9f3d8d18.css.map": "/eng_dialogue/static/css/main.9f3d8d18.css.map",
-    "main.850932e3.js.map": "/eng_dialogue/static/js/main.850932e3.js.map"
+    "main.f36a8915.js.map": "/eng_dialogue/static/js/main.f36a8915.js.map"
   },
   "entrypoints": [
     "static/css/main.9f3d8d18.css",
-    "static/js/main.850932e3.js"
+    "static/js/main.f36a8915.js"
   ]
 }
